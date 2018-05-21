@@ -6,13 +6,17 @@ import re
 
 def parseCourse(table):
 	print("==== START PARSING COURSE TABLE ====")
-	print(table)
+	#print(table)
+	global ccode 
 	ccode = table.find_all(attrs={"width": "100"})[0].string.strip()
 	cname = table.find_all(attrs={"width": "500"})[0].string.strip()
 	cau = table.find_all(attrs={"width": "50"})[0].string.strip()
 	print ('course code:', ccode)
 	print ('course name:', cname)
 	print ('course AU:', cau)
+
+	return (ccode, cname, cau)
+
 
 def parseIndexRow(row):
 	print("==== START PARSING INDEX ROW ====")
@@ -23,10 +27,13 @@ def parseIndexRow(row):
 	cday = row[3]
 	ctime = row[4]
 	cvenue = row[5]'''
-
+	
 
 	tdata = row.find_all('td')
-	cindex = tdata[0].string
+
+	global cindex
+	if not tdata[0].string is None:
+		cindex = tdata[0].string
 	ctype = tdata[1].string
 	cgroup = tdata[2].string
 	cday = tdata[3].string
@@ -40,23 +47,25 @@ def parseIndexRow(row):
 	print('cday:', cday)
 	print('ctime:', ctime)
 	print('cvenue:', cvenue)
-	print('cremark:', cvenue)
 	print('cremark:', cremark)
+
+	return (cindex, ctype, cgroup, cday, ctime, cvenue, cremark)
+
+	#cur.execute('''INSERT OR IGNORE INTO Courses (ccode, cname, cau)
+    #    VALUES ( ?, ?, ? )''', ( ccode, cname, cau))
 
 def parseIndexTable(table):
 	print('==== START PARSING INDEX TABLE ====')
 	#print(table)
-	print(len(list(table.children)))
-#	for child in table.children:
-#		if (child != '\n'):
-#			print('child:' ,child)
-#	row = table.contents[3]
-#	print(row)
-	
-	
+	indexes = []
+	rows = table.find_all(attrs={"bgcolor":"#CAE2EA"})
+	print('found:', len(rows), "indexes")
+	for row in rows:
+		indexes.append(parseIndexRow(row))
+	return indexes
 
-	print(table.contents[3])
-	parseIndexRow(table.contents[3])
+	#print(table.contents[3])
+	#parseIndexRow(table.contents[3])
 
 #	for i in range (len(table.contents[3])):
 #		row = table.contents[3].contents
@@ -76,16 +85,20 @@ baseurl ="https://wish.wis.ntu.edu.sg/webexe/owa/AUS_SCHEDULE.main_display1"
 r = requests.post(baseurl, 
 	#data={'staff_access':'false','acadsem':'2018;1', 'r_subj_code':'cz3007', 'boption':'Search', 'r_search_type': 'F'})
 	data={'staff_access':'false','acadsem':'2018;1', 'r_subj_code':'cz3007', 'boption':'CLoad', 'r_search_type': 'F', 'r_course_yr':'CSC;;4;F'})
-print(r.status_code, r.reason)
+print('status', r.status_code, r.reason)
 #print(r.text + '...')
 
 conn = sqlite3.connect('content.sqlite')
 cur = conn.cursor()
 
+cur.execute('''CREATE TABLE IF NOT EXISTS Courses
+	(id INTEGER PRIMARY KEY AUTOINCREMENT, ccode TEXT UNIQUE, cname TEXT, 
+	cau TEXT)''')
 
 cur.execute('''CREATE TABLE IF NOT EXISTS CourseIndexes
-	(id INTEGER UNIQUE, cindex TEXT, ctype TEXT, 
-	cgroup TEXT, cday TEXT, ctime TEXT, cremark TEXT)''')
+	(id INTEGER PRIMARY KEY AUTOINCREMENT, course_ccode TEXT, cindex TEXT, ctype TEXT, 
+	cgroup TEXT, cday TEXT, ctime TEXT, cvenue TEXT, cremark TEXT)''')
+
 
 
 soup = BeautifulSoup(r.text, 'html.parser')
@@ -93,12 +106,22 @@ soup = BeautifulSoup(r.text, 'html.parser')
 tables = soup.find_all('table')
 
 print ('number of tables: ', len(tables))
+
+
 for i in range (len(tables)):
-	#if i %2 ==0:		
-		#parseCourse(tables[i])
-	#else:
-	if i == 1:
-		parseIndexTable(tables[i])
+	print('')
+	print('Table number:', i)
+	if i %2 ==0:		
+		(ccode, cname, cau) = parseCourse(tables[i])
+		cur.execute('''INSERT OR IGNORE INTO Courses (ccode, cname, cau)
+        VALUES ( ?, ?, ? )''', ( ccode, cname, cau))
+
+	else:
+		indexes = parseIndexTable(tables[i])
+		for (cindex, ctype, cgroup, cday, ctime, cvenue, cremark) in indexes:
+			cur.execute('''INSERT OR IGNORE INTO CourseIndexes (course_ccode, cindex, ctype, cgroup, cday, ctime, cvenue, cremark)
+			 	VALUES ( ?, ?, ?, ?, ?, ?, ?, ?)''', ( ccode, cindex, ctype, cgroup, cday, ctime, cvenue, cremark))
+
 
 #cindex
 #ctype
