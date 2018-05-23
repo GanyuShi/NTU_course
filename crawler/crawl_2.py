@@ -21,7 +21,7 @@ post_fields = {'staff_access':'false','acadsem':'2018;1', 'r_subj_code':'cz3007'
 
 req = Request(url, urlencode(post_fields).encode())
 
-html = urlopen(req).read().decode()
+html = urlopen(req, None, 30, context=ctx).read().decode()
 
 print(html)
 #tags = soup('a')
