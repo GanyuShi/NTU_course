@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f09c4dc7-fdf6-4912-bd3e-fcb7b93cbe97" name="Default" comment="" />
+    <ignored path="CourseRegistration.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CourseRegistration$ExamCrawler.coverage" NAME="ExamCrawler Coverage Results" MODIFIED="1527059107322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CourseRegistration$CourseModel.coverage" NAME="CourseModel Coverage Results" MODIFIED="1527136208296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models" />
+    <SUITE FILE_PATH="coverage/CourseRegistration$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1527060825360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CourseRegistration$Index.coverage" NAME="Index Coverage Results" MODIFIED="1527136217771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models" />
+    <SUITE FILE_PATH="coverage/CourseRegistration$utils.coverage" NAME="utils Coverage Results" MODIFIED="1527136173243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Models" />
+    <SUITE FILE_PATH="coverage/CourseRegistration$CourseYrCrawler.coverage" NAME="CourseYrCrawler Coverage Results" MODIFIED="1527059098518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="CourseRegistration" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CourseIndexCrowler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawlers/CourseIndexCrowler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="151" column="38" selection-start-line="150" selection-start-column="4" selection-end-line="151" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+                <marker date="1527060793152" expanded="true" signature="1803:1919" ph="CREATE TABLE... Courses" />
+                <marker date="1527060793152" expanded="true" signature="1940:2128" ph="CREATE TABLE... CourseIndexes" />
+                <marker date="1527060793152" expanded="true" signature="2149:2273" ph="CREATE TABLE... Fetch" />
+                <marker date="1527060793152" expanded="true" signature="2309:2394" ph="SELECT value... CourseYrs" />
+                <marker date="1527060793152" expanded="true" signature="2364:2393" ph="SELECT cours... Fetch" />
+                <marker date="1527060793152" expanded="true" signature="3794:3874" ph="INSERT OR IG... Courses" />
+                <marker date="1527060793152" expanded="true" signature="4078:4234" ph="INSERT OR IG... CourseIndexes" />
+                <marker date="1527060793152" expanded="true" signature="4321:4385" ph="INSERT OR IG... Fetch" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseYrCrawler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawlers/CourseYrCrawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+                <marker date="1527056367818" expanded="true" signature="297:406" ph="CREATE TABLE... CourseYrs" />
+                <marker date="1527056367818" expanded="true" signature="1033:1101" ph="INSERT OR IG... CourseYrs" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1527126307440" expanded="true" signature="181:205" ph="DROP TABLE I... " />
+                <marker date="1527126307440" expanded="true" signature="181:206" ph="DROP TABLE I... " />
+                <marker date="1527126307440" expanded="true" signature="226:252" ph="DROP TABLE I... " />
+                <marker date="1527126307440" expanded="true" signature="226:253" ph="DROP TABLE I... " />
+                <marker date="1527126307440" expanded="true" signature="273:304" ph="DROP TABLE I... " />
+                <marker date="1527126307440" expanded="true" signature="273:305" ph="DROP TABLE I... " />
+                <marker date="1527126307440" expanded="true" signature="325:355" ph="DROP TABLE I... " />
+                <marker date="1527126307440" expanded="true" signature="375:402" ph="DROP TABLE I... " />
+                <marker date="1527126307440" expanded="true" signature="423:528" ph="CREATE TABLE... Day" />
+                <marker date="1527126307440" expanded="true" signature="549:656" ph="CREATE TABLE... Venue" />
+                <marker date="1527126307440" expanded="true" signature="677:789" ph="CREATE TABLE... LessonType" />
+                <marker date="1527126307440" expanded="true" signature="810:951" ph="CREATE TABLE... IF" />
+                <marker date="1527126307440" expanded="true" signature="972:1079" ph="CREATE TABLE... Groups" />
+                <marker date="1527126307440" expanded="true" signature="1116:1156" ph="SELECT DISTI... CourseIndexes" />
+                <marker date="1527126307440" expanded="true" signature="1122:1156" ph="select disti... CourseIndexes" />
+                <marker date="1527126307440" expanded="true" signature="1322:1362" ph="INSERT INTO Days... " />
+                <marker date="1527126307440" expanded="true" signature="1405:1444" ph="SELECT DISTI... CourseIndexes" />
+                <marker date="1527126307440" expanded="true" signature="1559:1592" ph="INSERT INTO Days... " />
+                <marker date="1527126307440" expanded="true" signature="1630:1670" ph="SELECT DISTI... CourseIndexes" />
+                <marker date="1527126307440" expanded="true" signature="2035:2067" ph="INSERT INTO Slots... " />
+                <marker date="1527126307440" expanded="true" signature="2035:2089" ph="INSERT INTO Slots... " />
+                <marker date="1527126307440" expanded="true" signature="2144:2185" ph="SELECT DISTI... CourseIndexes" />
+                <marker date="1527126307440" expanded="true" signature="2290:2325" ph="INSERT INTO Venues... " />
+                <marker date="1527126307440" expanded="true" signature="2365:2406" ph="SELECT DISTI... CourseIndexes" />
+                <marker date="1527126307440" expanded="true" signature="2511:2546" ph="INSERT INTO Groups... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Course.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Models/Course.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1527136206781" expanded="true" signature="190:218" ph="DROP TABLE I... " />
+                <marker date="1527136206781" expanded="true" signature="240:270" ph="DROP TABLE I... " />
+                <marker date="1527136206781" expanded="true" signature="292:329" ph="DROP TABLE I... " />
+                <marker date="1527136206781" expanded="true" signature="351:384" ph="DROP TABLE I... " />
+                <marker date="1527136206781" expanded="true" signature="407:486" ph="CREATE TABLE... IF" />
+                <marker date="1527136206781" expanded="true" signature="407:548" ph="CREATE TABLE... IF" />
+                <marker date="1527136206781" expanded="true" signature="571:645" ph="CREATE TABLE... IF" />
+                <marker date="1527136206781" expanded="true" signature="668:749" ph="CREATE TABLE... IF" />
+                <marker date="1527136206781" expanded="true" signature="772:849" ph="CREATE TABLE... IF" />
+                <marker date="1527136206781" expanded="true" signature="882:903" ph="SELECT * FRO... Courses" />
+                <marker date="1527136206781" expanded="true" signature="1232:1296" ph="INSERT INTO Courses... " />
+                <marker date="1527136206781" expanded="true" signature="1349:1389" ph="SELECT id fr... Courses" />
+                <marker date="1527136206781" expanded="true" signature="1547:1600" ph="INSERT OR IG... UECourses" />
+                <marker date="1527136206781" expanded="true" signature="1673:1695" ph="Insert into UE... " />
+                <marker date="1527136206781" expanded="true" signature="1756:1816" ph="INSERT OR IG... SelfPacedCourses" />
+                <marker date="1527136206781" expanded="true" signature="1889:1919" ph="Insert into self... " />
+                <marker date="1527136206781" expanded="true" signature="1980:2036" ph="INSERT OR IG... GerPeCourses" />
+                <marker date="1527136206781" expanded="true" signature="2109:2134" ph="Insert into GERPE... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Models/Index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1527136152301" expanded="true" signature="190:218" ph="DROP TABLE I... " />
+                <marker date="1527136152301" expanded="true" signature="240:268" ph="DROP TABLE I... " />
+                <marker date="1527136152301" expanded="true" signature="291:507" ph="CREATE TABLE... IF" />
+                <marker date="1527136152301" expanded="true" signature="530:1116" ph="CREATE TABLE... IF" />
+                <marker date="1527136152301" expanded="true" signature="1149:1190" ph="SELECT * FRO... CourseIndexes" />
+                <marker date="1527136152301" expanded="true" signature="1334:1377" ph="SELECT id FR... LessonType" />
+                <marker date="1527136152301" expanded="true" signature="1461:1504" ph="SELECT id FR... LessonType" />
+                <marker date="1527136152301" expanded="true" signature="1677:1713" ph="SELECT id FR... Days" />
+                <marker date="1527136152301" expanded="true" signature="2085:2131" ph="SELECT id FR... TimeSlots" />
+                <marker date="1527136152301" expanded="true" signature="2085:2149" ph="SELECT id FR... TimeSlots" />
+                <marker date="1527136152301" expanded="true" signature="2349:2387" ph="SELECT id FR... Venues" />
+                <marker date="1527136152301" expanded="true" signature="2576:2614" ph="SELECT id FR... Groups" />
+                <marker date="1527136152301" expanded="true" signature="2756:2802" ph="SELECT * FRO... CourseIndexes" />
+                <marker date="1527136152301" expanded="true" signature="3032:3072" ph="SELECT id FR... Courses" />
+                <marker date="1527136152301" expanded="true" signature="3165:3228" ph="INSERT INTO Indexes... " />
+                <marker date="1527136152301" expanded="true" signature="3295:3357" ph="SELECT id FR... Indexes" />
+                <marker date="1527136152301" expanded="true" signature="3694:3779" ph="INSERT OR IG... Lessons" />
+                <marker date="1527136152301" expanded="true" signature="3694:3800" ph="INSERT OR IG... Lessons" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/crawl_2.py" />
+        <option value="$PROJECT_DIR$/crawler.py" />
+        <option value="$PROJECT_DIR$/CourseYrCrawler.py" />
+        <option value="$PROJECT_DIR$/CourseIndexCrowler.py" />
+        <option value="$PROJECT_DIR$/Models/ExamModel.py" />
+        <option value="$PROJECT_DIR$/Models/CourseModel.py" />
+        <option value="$PROJECT_DIR$/Models/IndexModel.py" />
+        <option value="$PROJECT_DIR$/Models/utils.py" />
+        <option value="$PROJECT_DIR$/Models/Index.py" />
+        <option value="$PROJECT_DIR$/Models/Course.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="31" />
+    <option name="y" value="47" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CourseRegistration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CourseRegistration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CourseRegistration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crawlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CourseRegistration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CourseRegistration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="/usr/bin/python" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/crawlers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Index">
+    <configuration default="false" name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawlers/CourseIndexCrowler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExamCrawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawlers/ExamCrawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CourseModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Course.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Models/Index.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="CourseRegistration" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CourseRegistration" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.crawler" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ExamCrawler" />
+      <item index="2" class="java.lang.String" itemvalue="Python.utils" />
+      <item index="3" class="java.lang.String" itemvalue="Python.CourseModel" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Index" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Index" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CourseModel" />
+        <item index="2" class="java.lang.String" itemvalue="Python.utils" />
+        <item index="3" class="java.lang.String" itemvalue="Python.crawler" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ExamCrawler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f09c4dc7-fdf6-4912-bd3e-fcb7b93cbe97" name="Default" comment="" />
+      <created>1526997986261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526997986261</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="31" y="47" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17770597" sideWeight="0.49115044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34014598" sideWeight="0.5250404" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32846716" sideWeight="0.47819063" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34014598" sideWeight="0.4749596" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17770597" sideWeight="0.50884956" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b206290-8c2b-41b7-8d4c-c9c17245c96f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/course_crawler/lib/python3.5/site-packages/urllib3/contrib/pyopenssl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1214">
+          <caret line="440" column="0" selection-start-line="440" selection-start-column="0" selection-end-line="440" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Exam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawlers/CourseIndexCrowler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="151" column="38" selection-start-line="150" selection-start-column="4" selection-end-line="151" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1527060793152" expanded="true" signature="1803:1919" ph="CREATE TABLE... Courses" />
+            <marker date="1527060793152" expanded="true" signature="1940:2128" ph="CREATE TABLE... CourseIndexes" />
+            <marker date="1527060793152" expanded="true" signature="2149:2273" ph="CREATE TABLE... Fetch" />
+            <marker date="1527060793152" expanded="true" signature="2309:2394" ph="SELECT value... CourseYrs" />
+            <marker date="1527060793152" expanded="true" signature="2364:2393" ph="SELECT cours... Fetch" />
+            <marker date="1527060793152" expanded="true" signature="3794:3874" ph="INSERT OR IG... Courses" />
+            <marker date="1527060793152" expanded="true" signature="4078:4234" ph="INSERT OR IG... CourseIndexes" />
+            <marker date="1527060793152" expanded="true" signature="4321:4385" ph="INSERT OR IG... Fetch" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawlers/ExamCrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <marker date="1526953749000" expanded="true" signature="580:764" ph="CREATE TABLE... Exams" />
+            <marker date="1526953749000" expanded="true" signature="1770:1891" ph="INSERT OR IG... Exams" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawlers/CourseYrCrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1527056367818" expanded="true" signature="297:406" ph="CREATE TABLE... CourseYrs" />
+            <marker date="1527056367818" expanded="true" signature="1033:1101" ph="INSERT OR IG... CourseYrs" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1527126307440" expanded="true" signature="181:205" ph="DROP TABLE I... " />
+            <marker date="1527126307440" expanded="true" signature="181:206" ph="DROP TABLE I... " />
+            <marker date="1527126307440" expanded="true" signature="226:252" ph="DROP TABLE I... " />
+            <marker date="1527126307440" expanded="true" signature="226:253" ph="DROP TABLE I... " />
+            <marker date="1527126307440" expanded="true" signature="273:304" ph="DROP TABLE I... " />
+            <marker date="1527126307440" expanded="true" signature="273:305" ph="DROP TABLE I... " />
+            <marker date="1527126307440" expanded="true" signature="325:355" ph="DROP TABLE I... " />
+            <marker date="1527126307440" expanded="true" signature="375:402" ph="DROP TABLE I... " />
+            <marker date="1527126307440" expanded="true" signature="423:528" ph="CREATE TABLE... Day" />
+            <marker date="1527126307440" expanded="true" signature="549:656" ph="CREATE TABLE... Venue" />
+            <marker date="1527126307440" expanded="true" signature="677:789" ph="CREATE TABLE... LessonType" />
+            <marker date="1527126307440" expanded="true" signature="810:951" ph="CREATE TABLE... IF" />
+            <marker date="1527126307440" expanded="true" signature="972:1079" ph="CREATE TABLE... Groups" />
+            <marker date="1527126307440" expanded="true" signature="1116:1156" ph="SELECT DISTI... CourseIndexes" />
+            <marker date="1527126307440" expanded="true" signature="1122:1156" ph="select disti... CourseIndexes" />
+            <marker date="1527126307440" expanded="true" signature="1322:1362" ph="INSERT INTO Days... " />
+            <marker date="1527126307440" expanded="true" signature="1405:1444" ph="SELECT DISTI... CourseIndexes" />
+            <marker date="1527126307440" expanded="true" signature="1559:1592" ph="INSERT INTO Days... " />
+            <marker date="1527126307440" expanded="true" signature="1630:1670" ph="SELECT DISTI... CourseIndexes" />
+            <marker date="1527126307440" expanded="true" signature="2035:2067" ph="INSERT INTO Slots... " />
+            <marker date="1527126307440" expanded="true" signature="2035:2089" ph="INSERT INTO Slots... " />
+            <marker date="1527126307440" expanded="true" signature="2144:2185" ph="SELECT DISTI... CourseIndexes" />
+            <marker date="1527126307440" expanded="true" signature="2290:2325" ph="INSERT INTO Venues... " />
+            <marker date="1527126307440" expanded="true" signature="2365:2406" ph="SELECT DISTI... CourseIndexes" />
+            <marker date="1527126307440" expanded="true" signature="2511:2546" ph="INSERT INTO Groups... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Course.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1527136206781" expanded="true" signature="190:218" ph="DROP TABLE I... " />
+            <marker date="1527136206781" expanded="true" signature="240:270" ph="DROP TABLE I... " />
+            <marker date="1527136206781" expanded="true" signature="292:329" ph="DROP TABLE I... " />
+            <marker date="1527136206781" expanded="true" signature="351:384" ph="DROP TABLE I... " />
+            <marker date="1527136206781" expanded="true" signature="407:486" ph="CREATE TABLE... IF" />
+            <marker date="1527136206781" expanded="true" signature="407:548" ph="CREATE TABLE... IF" />
+            <marker date="1527136206781" expanded="true" signature="571:645" ph="CREATE TABLE... IF" />
+            <marker date="1527136206781" expanded="true" signature="668:749" ph="CREATE TABLE... IF" />
+            <marker date="1527136206781" expanded="true" signature="772:849" ph="CREATE TABLE... IF" />
+            <marker date="1527136206781" expanded="true" signature="882:903" ph="SELECT * FRO... Courses" />
+            <marker date="1527136206781" expanded="true" signature="1232:1296" ph="INSERT INTO Courses... " />
+            <marker date="1527136206781" expanded="true" signature="1349:1389" ph="SELECT id fr... Courses" />
+            <marker date="1527136206781" expanded="true" signature="1547:1600" ph="INSERT OR IG... UECourses" />
+            <marker date="1527136206781" expanded="true" signature="1673:1695" ph="Insert into UE... " />
+            <marker date="1527136206781" expanded="true" signature="1756:1816" ph="INSERT OR IG... SelfPacedCourses" />
+            <marker date="1527136206781" expanded="true" signature="1889:1919" ph="Insert into self... " />
+            <marker date="1527136206781" expanded="true" signature="1980:2036" ph="INSERT OR IG... GerPeCourses" />
+            <marker date="1527136206781" expanded="true" signature="2109:2134" ph="Insert into GERPE... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Models/Index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1527136152301" expanded="true" signature="190:218" ph="DROP TABLE I... " />
+            <marker date="1527136152301" expanded="true" signature="240:268" ph="DROP TABLE I... " />
+            <marker date="1527136152301" expanded="true" signature="291:507" ph="CREATE TABLE... IF" />
+            <marker date="1527136152301" expanded="true" signature="530:1116" ph="CREATE TABLE... IF" />
+            <marker date="1527136152301" expanded="true" signature="1149:1190" ph="SELECT * FRO... CourseIndexes" />
+            <marker date="1527136152301" expanded="true" signature="1334:1377" ph="SELECT id FR... LessonType" />
+            <marker date="1527136152301" expanded="true" signature="1461:1504" ph="SELECT id FR... LessonType" />
+            <marker date="1527136152301" expanded="true" signature="1677:1713" ph="SELECT id FR... Days" />
+            <marker date="1527136152301" expanded="true" signature="2085:2131" ph="SELECT id FR... TimeSlots" />
+            <marker date="1527136152301" expanded="true" signature="2085:2149" ph="SELECT id FR... TimeSlots" />
+            <marker date="1527136152301" expanded="true" signature="2349:2387" ph="SELECT id FR... Venues" />
+            <marker date="1527136152301" expanded="true" signature="2576:2614" ph="SELECT id FR... Groups" />
+            <marker date="1527136152301" expanded="true" signature="2756:2802" ph="SELECT * FRO... CourseIndexes" />
+            <marker date="1527136152301" expanded="true" signature="3032:3072" ph="SELECT id FR... Courses" />
+            <marker date="1527136152301" expanded="true" signature="3165:3228" ph="INSERT INTO Indexes... " />
+            <marker date="1527136152301" expanded="true" signature="3295:3357" ph="SELECT id FR... Indexes" />
+            <marker date="1527136152301" expanded="true" signature="3694:3779" ph="INSERT OR IG... Lessons" />
+            <marker date="1527136152301" expanded="true" signature="3694:3800" ph="INSERT OR IG... Lessons" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
